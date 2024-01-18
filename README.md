@@ -32,7 +32,7 @@ git clone https://github.com/6voo/pfp-banner-preview.git
 
 Navigate to the project folder.
 ```bash
-cd your-repository
+cd pfp-banner-preview
 ```
 Open the index.html file in your preferred web browser.
 ```
