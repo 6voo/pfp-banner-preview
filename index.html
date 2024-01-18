@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="en">
+     <head>
+         <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Profile and Banner Preview</title> 
+           <link rel="stylesheet" href="styles.css"> 
+           <style> 
+           body { text-align: center; }
+
+        h1 {
+            color: #333;
+        }
+    
+        .input-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+    
+        #banner {
+            width: 48%;
+        }
+    
+        #pfp {
+            width: 48%;
+        }
+    
+        .cropped-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 0px;
+        }
+    
+        .pfp-preview-container {
+            text-align: left;
+        }
+    </style>
+    </head> <body> <h1>Profile Preview</h1>
+    <div class="input-container">
+        <div>
+            <label for="pfp">Choose Profile Picture:</label>
+            <input type="file" id="pfp" accept="image/*" onchange="previewImage('pfp', 'pfp-preview')">
+        </div>
+    
+        <div>
+            <label for="banner">Choose Banner:</label>
+            <input type="file" id="banner" accept="image/*" onchange="previewImage('banner', 'banner-preview')">
+        </div>
+    </div>
+
+    
+    <div class="pfp-preview-container">
+        <img id="banner-preview" alt="Banner Picture Preview" class="cropped-image">
+        <div></div>
+        <img id="pfp-preview" alt="Profile Picture Preview" class="cropped-image">
+    </div>
+    
+    
+    <script src="script.js"></script>
+    </body> </html>
