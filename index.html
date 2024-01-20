@@ -29,7 +29,6 @@
         .cropped-image {
             max-width: 100%;
             height: auto;
-            margin-top: 0px;
         }
     
         .pfp-preview-container {
@@ -40,8 +39,11 @@
             height: 150px;
             width: 150px;
             object-fit: cover;
-            margin-top: -50px;
             border-radius: 50%;
+        }
+        
+        .overlay-pfp {
+            margin-top: -50px;
         }
     </style>
     </head> <body> <h1>Profile Preview</h1>
@@ -63,6 +65,10 @@
         <div></div>
         <img id="pfp-preview" alt="Profile Picture Preview" class="pfp cropped-image">
     </div>
+    <button onclick="toggleDarkMode()">Toggle dark mode</button>
+    <p></p>
+    <button onclick="toggleOverlayProfilePicture()">Toggle Profile Picture Overlay</button>
+
     
     <script src="script.js"></script>
     </body> </html>
