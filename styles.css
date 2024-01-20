@@ -29,3 +29,15 @@ img {
     width: auto;
     height: auto;
 }
+
+.pfp {
+    border-radius: 50%; /* makes the pfp circular*/
+}
+
+.dark-mode {
+    background-color: #323338;
+}
+
+.overlay-pfp {
+    margin-top: -50px;
+}
