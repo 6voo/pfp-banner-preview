@@ -48,8 +48,9 @@ Now you can preview and customize your profile elements locally.
 Enjoy! 🤑
 
 # Screenshots
-![image](https://github.com/6voo/pfp-banner-preview/assets/97762571/f5de8cc9-cfb0-41f0-8bd5-ec7ab94be83b)
-![image](https://github.com/6voo/pfp-banner-preview/assets/97762571/600e3d77-65ff-4792-bca0-f6a6d6dc3d80)
+![image](https://github.com/6voo/pfp-banner-preview/assets/97762571/7ee36ee0-7144-4808-ac20-212bf1127f51)
+![image](https://github.com/6voo/pfp-banner-preview/assets/97762571/f3eb47f2-01b5-4fa4-9925-65143a01207e)
+
 
 
 (I know, it doesn't look the best. It's for functionality over design after all.)
