@@ -8,37 +8,40 @@
 
     </head>
     
-     <body>
-         <h1 id="mainTitle" title="Title">Profile Preview</h1>
-    <div class="input-container">
+    <body>
+        <h1 id="mainTitle" title="Title">Profile Preview</h1>
+        <div class="input-container">
+
         <div>
-            <label for="pfp">Choose Profile Picture:</label>
+            <label id="choosePfp" for="pfp">Choose Profile Picture:</label>
             <input type="file" id="pfp" accept="image/*" onchange="previewImage('pfp', 'pfp-preview')">
         </div>
     
         <div>
-            <label for="banner">Choose Banner:</label>
+            <label id="chooseBanner" for="banner">Choose Banner:</label>
             <input type="file" id="banner" accept="image/*" onchange="previewImage('banner', 'banner-preview')">
         </div>
     </div>
 
+    <div class="container"> 
+        <img id="banner-preview" alt="Banner Picture Preview" class="banner">
 
-<div class="container"> 
-    <img id="banner-preview" alt="Banner Picture Preview" class="banner">
+        <div></div>
+        
+        <div class="pfp-container">
+            <img id="pfp-preview" alt="Profile Picture Preview" class=" cropped-image pfp">
+        </div>
+    </div>   
+
     <div></div>
-    <div class="pfp-container">
-        <img id="pfp-preview" alt="Profile Picture Preview" class=" cropped-image pfp">
-    </div>
-</div>   
+    <br>    
+        <button onclick="toggleLightMode()">Light Mode</button>
+        <button onclick="toggleDarkMode()">Dark Mode</button>
 
-<div></div>
-<br>    
-    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
-    <br><br>
-    <button onclick="toggleDiscordDarkMode()">Toggle Discord Dark Mode</button>
-    <br><br>
-    <button onclick="toggleOverlayProfilePicture()">Toggle Profile Picture Overlay</button>
-   
+        <button onclick="toggleDiscordDarkMode()">Discord Dark Mode</button>
+        <br><br>
+        <button onclick="toggleOverlayProfilePicture()">Toggle Profile Picture Overlay</button>
     
-    <script src="script.js"></script>
-    </body> </html>
+        <script src="script.js"></script>
+    </body> 
+</html>
