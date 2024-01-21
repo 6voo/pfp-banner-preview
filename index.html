@@ -5,60 +5,9 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
            <title>Profile and Banner Preview</title> 
            <link rel="stylesheet" href="styles.css"> 
-           <style> 
-           body { text-align: center; }
 
-        h1 {
-            color: #333;
-        }
-    
-        .input-container {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
-        }
-    
-        #banner {
-            width: 48%;
-        }
-    
-        #pfp {
-            width: 48%;
-        }
-    
-        .cropped-image {
-            max-width: 100%;
-            height: auto;
-        }
-    
-        .pfp-preview-container {
-            text-align: left;
-        }
-
-        .pfp {
-            height: 150px;
-            width: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-        }
-        
-        .overlay-pfp {
-            margin-top: -50px;
-        }
-        .dark-mode {
-        background-color: #323338;
-        color: white;
-        }
-        .centered-items {
-      display: inline-block;
-        }
-
-        .container {
-            text-align: left;
-        }
-
-    </style>
     </head>
+    
      <body>
          <h1 id="mainTitle" title="Title">Profile Preview</h1>
     <div class="input-container">
@@ -73,18 +22,20 @@
         </div>
     </div>
 
-<div class="centered-items">
+
 <div class="container"> 
-    <div class="pfp-preview-container">
-        <img id="banner-preview" alt="Banner Picture Preview" class="cropped-image">
-        <div></div>
-        <img id="pfp-preview" alt="Profile Picture Preview" class="pfp cropped-image">
+    <img id="banner-preview" alt="Banner Picture Preview" class="banner">
+    <div></div>
+    <div class="pfp-container">
+        <img id="pfp-preview" alt="Profile Picture Preview" class=" cropped-image pfp">
     </div>
 </div>   
-</div> 
+
 <div></div>
-<br>
-    <button onclick="toggleDarkMode()">Toggle dark mode</button>
+<br>    
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <br><br>
+    <button onclick="toggleDiscordDarkMode()">Toggle Discord Dark Mode</button>
     <br><br>
     <button onclick="toggleOverlayProfilePicture()">Toggle Profile Picture Overlay</button>
    
