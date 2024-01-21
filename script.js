@@ -21,6 +21,13 @@ function toggleDarkMode() {
     var titleElement = document.getElementById("mainTitle"); // to change the title colour as well
     elementBody.classList.toggle("dark-mode");
     titleElement.classList.toggle("dark-mode");
+}
+
+function toggleDiscordDarkMode() {
+    var elementBody = document.body;
+    var titleElement = document.getElementById("mainTitle"); // to change the title colour as well
+    elementBody.classList.toggle("dark-mode2");
+    titleElement.classList.toggle("dark-mode2");
 
 }
 
