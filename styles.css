@@ -130,12 +130,12 @@ button {
     color:#0D1821
 }
 
-.dark-mode {
+.dark-mode { /*meant to replicate youtube dark mode*/
     background-color: #0f0f0f;
     color:#f0f4ef;
 }
 
-.dark-mode2 {
+.dark-mode2 { /*meant to replicate discord dark mode*/
     background-color: #232428;
     color: #f0f4ef;
 }
