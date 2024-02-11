@@ -45,7 +45,7 @@ start index.html
 Now you can preview and customize your profile elements locally.
 
 
-Enjoy! 🤑
+Enjoy! 🤑aa
 
 # Screenshots
 ![image](https://github.com/6voo/pfp-banner-preview/assets/97762571/9d921686-f37f-4215-b4db-d8962de07d94)
