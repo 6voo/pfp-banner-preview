@@ -12,13 +12,13 @@ It provides a convenient way to visualize how your profile elements will look to
 ## How I Made It
 
 This project was created using HTML, CSS, and JavaScript. 
-The styling was designed to resemble the layout of YouTube and other sites such as Discord, etc.,  allowing users to easily visualize their profile elements in a similar format.
+The styling was designed to resemble the layout of YouTube and other sites such as Discord, etc. allowing users to easily visualize their profile elements in a similar format.
+ALSO, I THANK [@ReallyHareyQuinn](https://github.com/ReallyHarleyQuinn) SO MUCH FOR HIS CONTRIBUTION!
 
 ## Why I Made It
 I made it because it was frustrating having to change your banner, wait for it to upload on the site, update, just for it to not match that good...
 Personally, I feel like the pfp and banner have to match otherwise I'll look for something new. I can't stand it not matching, even if its just by a bit.
-There weren't any other sites I found that allowed you to preview your profile picture and banner, I had to use Figma (an image editing program) just to try to see if it matched... LOL
-, which is also a reason why I made it. 
+There weren't any other sites I found that allowed you to preview your profile picture and banner, I had to use Figma (an image editing program) just to try to see if it matched... LOL!
 
 ## How to Use
 

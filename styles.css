@@ -63,6 +63,7 @@ button {
       will-change: transform,opacity;
       z-index: 0; 
       /* CREDITS TO GOOGLE FOR BUTTONS */
+      /* ig u could say.. he googled it 😂 */
 }
 
 /*  ‧⠀⠀⨯⠀⠀⠀⠀ .⁺⠀⠀ ✦⠀⠀ * ‧⠀⠀⨯⠀⠀ ⠀⠀ .⁺⠀⠀ ✦⠀⠀  */
@@ -95,7 +96,8 @@ button {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-
+    margin: 0;
+    padding: 0;
 }
 
 .pfp {
@@ -103,6 +105,9 @@ button {
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
+    border: 8px solid #f0f4ef;
+    box-sizing: content-box;
+    transition: border-color 0.5s ease, margin-top 0.5s ease;
 }
 
 .banner {
@@ -112,6 +117,12 @@ button {
     min-height: 200px;
     max-height: 200px;
     object-fit: cover;
+}
+
+.body-light-mode,
+.body-dark-mode,
+.body-dark-mode2 {
+    transition: background-color 0.5s ease; /* Adjust the duration and timing function as needed */
 }
 
 .light-mode {
@@ -130,12 +141,20 @@ button {
 }
 
 .overlay-pfp {
-    margin-top: -60px;
+    margin-top: -75px;
+    transition: border-color 0.5s ease, margin-top 0.5s ease;
 }
 
 .container {
     display: inline-block;
     text-align: left;
+}
+
+.choosecontainer {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*  ‧⠀⠀⨯⠀⠀⠀⠀ .⁺⠀⠀ ✦⠀⠀ * ‧⠀⠀⨯⠀⠀ ⠀⠀ .⁺⠀⠀ ✦⠀⠀  */
