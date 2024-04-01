@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang="en">
+     <head>
+         <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Profile and Banner Preview</title> 
+           <link rel="stylesheet" href="styles.css"> 
+
+    </head>
+    
+    <body>
+        <h1 id="mainTitle" title="Title">Profile Preview</h1>
+        <div class="input-container">
+    </div>
+
+    <div class="container"> 
+        <img id="banner-preview" alt="Banner Picture Preview" class="banner">
+
+        <div></div>
+        
+        <div class="pfp-container">
+            <img id="pfp-preview" alt="Profile Picture Preview" class="cropped-image pfp">
+        </div>
+    </div>   
+
+    <div></div>
+    <br>
+        <div class="choosecontainer">
+            <label id="choosePfp" for="pfp">Choose Profile Picture:</label>
+            <input type="file" id="pfp" accept="image/*" onchange="previewImage('pfp', 'pfp-preview')">
+        </div>
+
+        <div class="choosecontainer">
+            <label id="chooseBanner" for="banner">Choose Banner:</label>
+            <input type="file" id="banner" accept="image/*" onchange="previewImage('banner', 'banner-preview')">
+        </div>
+        <br><br>
+        <button onclick="toggleLightMode()">Light Mode</button>
+        <button onclick="toggleDarkMode()">Dark Mode</button>
+
+        <button onclick="toggleDiscordDarkMode()">Discord Dark Mode</button>
+        <br><br>
+        <button onclick="toggleOverlayProfilePicture()">Toggle Profile Picture Overlay</button>
+        <button onclick="toggleBorder()">Toggle Border</button>
+        <br><br>
+    
+        <script src="script.js"></script>
+    </body> 
+</html>

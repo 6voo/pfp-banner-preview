@@ -1,0 +1,193 @@
+
+body {
+    background-color: #f0f4ef;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0D1821;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0D1821;
+
+}
+
+input {
+    margin-bottom: 20px;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+button {
+      align-items: center;
+      appearance: none;
+      background-color: #f0f4ef;
+      border-radius: 24px;
+      border-style: none;
+      box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+      box-sizing: border-box;
+      color: #3c4043;
+      cursor: pointer;
+      display: inline-flex;
+      fill: currentcolor;
+      font-family: "Google Sans",Roboto,Arial,sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      height: 48px;
+      justify-content: center;
+      letter-spacing: .25px;
+      line-height: normal;
+      max-width: 100%;
+      overflow: visible;
+      padding: 2px 24px;
+      position: relative;
+      text-align: center;
+      text-transform: none;
+      transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: auto;
+      will-change: transform,opacity;
+      z-index: 0; 
+      /* CREDITS TO GOOGLE FOR BUTTONS */
+      /* ig u could say.. he googled it 😂 */
+}
+
+/*  ‧⠀⠀⨯⠀⠀⠀⠀ .⁺⠀⠀ ✦⠀⠀ * ‧⠀⠀⨯⠀⠀ ⠀⠀ .⁺⠀⠀ ✦⠀⠀  */
+
+#banner {
+    width: 100%;
+}
+
+#pfp {
+    width: 100%;
+}
+
+/*  ‧⠀⠀⨯⠀⠀⠀⠀ .⁺⠀⠀ ✦⠀⠀ * ‧⠀⠀⨯⠀⠀ ⠀⠀ .⁺⠀⠀ ✦⠀⠀  */
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cropped-image {
+    max-width: 400px; 
+    max-height: 400px; 
+    width: auto;
+    height: auto;
+}
+
+
+.pfp-container {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.pfp {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid #f0f4ef;
+    box-sizing: content-box;
+    transition: border-color 0.5s ease, margin-top 0.5s ease;
+}
+
+.banner {
+    margin-left: -10px;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.body-light-mode,
+.body-dark-mode,
+.body-dark-mode2 {
+    transition: background-color 0.5s ease; /* Adjust the duration and timing function as needed */
+}
+
+.light-mode {
+    background-color: #f0f4ef;
+    color:#0D1821
+}
+
+.dark-mode { /*meant to replicate youtube dark mode*/
+    background-color: #0f0f0f;
+    color:#f0f4ef;
+}
+
+.dark-mode2 { /*meant to replicate discord dark mode*/
+    background-color: #232428;
+    color: #f0f4ef;
+}
+
+.overlay-pfp {
+    margin-top: -75px;
+    transition: border-color 0.5s ease, margin-top 0.5s ease;
+}
+
+.container {
+    display: inline-block;
+    text-align: left;
+}
+
+.choosecontainer {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  ‧⠀⠀⨯⠀⠀⠀⠀ .⁺⠀⠀ ✦⠀⠀ * ‧⠀⠀⨯⠀⠀ ⠀⠀ .⁺⠀⠀ ✦⠀⠀  */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 7px transparent;
+    background-clip: content-box;
+}
+
+/*  ‧⠀⠀⨯⠀⠀⠀⠀ .⁺⠀⠀ ✦⠀⠀ * ‧⠀⠀⨯⠀⠀ ⠀⠀ .⁺⠀⠀ ✦⠀⠀  */
+
+input[type="file"]::file-selector-button {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 100px;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+    background-color: transparent;
+    transition: 1s;
+}
+  
+input[type="file"]::file-selector-button:hover {
+    background-color: #ffffff;
+    border: 100px;
+}
+
+/*  ‧⠀⠀⨯⠀⠀⠀⠀ .⁺⠀⠀ ✦⠀⠀ * ‧⠀⠀⨯⠀⠀ ⠀⠀ .⁺⠀⠀ ✦⠀⠀  */
